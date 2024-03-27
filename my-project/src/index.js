@@ -5,7 +5,7 @@ import Card from "./components/card.js";
 
 const EventExanple =()=>{
     return(
-    <section>
+    <section className='bookList'>
         <Book/>
     </section>
     );
@@ -13,7 +13,7 @@ const EventExanple =()=>{
 const Book=()=>{
      return(
         <>
-         <div>
+         <div className='book'>
             <Card image="./photo/cup.jpg" title=" hello" author="dinah"/>
             </div>
           <div>
